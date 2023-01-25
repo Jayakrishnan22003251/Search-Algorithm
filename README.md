@@ -17,28 +17,28 @@ To write a program to perform linear search and binary search using python progr
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
-i)	#Use a linear search method to match the item in a list.
+i      #Use a linear search method to match the item in a list.
 ''' 
 Program for linear search method to match the item in a list
 Developed by: JAYAKRISHNAN L B L
 RegisterNumber: 22003251
 '''
-      def linearSearch(array,n,k):
-          for i in range(0, n):
-              if (array[i] == k):
-                   return i
-          return -1
-      array = eval(input())
-      k = eval(input())
-      n = len(array)
-      array.sort()
-      result = linearSearch(array,n,k)
-      if (result == -1):
-           print(array)
-           print("Element not found")
-      else:
-           print(array)
-           print("Element found at index: ", result)
+         def linearSearch(array,n,k):
+         for i in range(0, n):
+             if (array[i] == k):
+                  return i
+         return -1
+         array = eval(input())
+         k = eval(input())
+         n = len(array)
+         array.sort()
+         result = linearSearch(array,n,k)
+         if (result == -1):
+              print(array)
+              print("Element not found")
+         else:
+              print(array)
+              print("Element found at index: ", result)
 
 
 
@@ -111,7 +111,8 @@ RegisterNumber:
 
 ```
 ## Sample Input and Output
-![image (16)](https://user-images.githubusercontent.com/120232371/214606455-f4156ade-1ab2-4548-add5-00a25133cddf.png)
+![image (15)](https://user-images.githubusercontent.com/120232371/214609932-97db2b4f-b98d-4b5d-84f5-7571749c4ead.png)
+
 
 
 
